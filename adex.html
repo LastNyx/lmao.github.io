@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adex Legends</title>
+    <link rel="stylesheet" href="/adex/adex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+        font-family: 'Inter', sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="tab">
+        <div class="header">
+            <h2>Registration</h2>
+        </div>
+        <form class="form" id="form" method="post">
+            <div class="form-size">
+                <label for="full">
+                    Fullname 
+                </label>
+                <input type="text" name="full" id="full">
+             <br>
+                <label for="email">
+                    E-mail
+                </label>
+                <input type="text" name="email" id="email">
+            <br>
+                <label for="user">
+                    Username
+                </label>
+                <input type="text" name="user" id="user">
+            <br>
+                <label for="password">
+                    Password
+                </label>
+                <input type="password" name="password" id="password">
+            <br>
+                    Region:
+            <br>
+                <label for="region">
+                    SEA
+                </label>    
+                <input type="radio" name="region" id="SEA">
+            <br>
+                <label for="region">
+                    KRJP
+                </label>
+                <input type="radio" name="region" id="KRJP">
+            <br>    
+                <label for="region">
+                    Europe
+                </label>
+                <input type="radio" name="region" id="Europe">
+            <br>
+                <label for="region">
+                    South America
+                </label>
+                <input type="radio" name="region" id="SouthAmerica">
+            <br>
+                <label for="region">
+                    North America
+                </label>
+                <input type="radio" name="region" id="NorthAmerica">
+                <button type="button" onclick="validasi()">
+                    CONFRIM
+                </button>
+            </form>
+        <script src="adex.js">
+
+        </script>
+    </div>
+</div>    
+</body>
+</html>
